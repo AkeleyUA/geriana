@@ -964,141 +964,83 @@ MEDIA
   }
 }
 
+/* for my phone */
 
-
-
-
-
-
-/* @media (max-width: 1299px) {
-
-  
-  .how-it-works {
-    grid-template-columns: repeat(auto-fit, minmax(600px, auto));
-    align-items: center;
-    justify-items: center;
-  }
-
-  .steps-right-side {
-    margin-right: 0;
-    grid-row: 2/3;
-    grid-column: 2/3;
-  }
-}
-
-@media (max-width: 1199px) {
-  .preferences-right-side {
-    padding: 65px 0px 65px 120px;
-  }
-  .preferences-left-side {
-    margin-top:65px;
-    grid-gap: 10px 0;
-  }
-
-  .preferences-title {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 991px) {
-
-  .nav-btn {
-    display: none;
-  }
-
-  .nav-link-hide {
-    display: none;
+@media (max-width: 379px) {
+  .top-menu-transparent {
+    grid-template-columns: 10px max-content auto max-content 10px;
   }
   
-  .nav-link.menu-link {
+  .nav-left-side {
+    grid-template-columns: max-content;
+  }
+
+  .nav-right-side {
+    grid-template-columns: max-content;
+  }
+
+  .banner-title-blue {
+    font-size: 40px;
+  }
+
+  .banner-title-white {
     font-size: 30px;
-    width: 110px;
   }
 
   .banner-description {
-    font-size: 25px;
+    font-size: 20px;
   }
-
   .search-title {
-    font-size: 24px;
+    font-size: 15px;
   }
 
-  .specialists-card {
-    width: 100%;
-    grid-template-rows: max-content;
+  .feedbacks,
+  .our-preferences-bg-img,
+  .specialists {
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   }
 
-  .card-title {
-    font-size: 40px;
+  .preference,
+  .steps-right-side,
+  .steps-left-side {
+    max-width: 350px;
+    margin: 30px 15px;
     height: auto;
   }
   
-  .card-description {
-    font-size: 30px;
+  .how-it-works-title {
+    font-size: 40px;
   }
 
-  .steps-right-side {
-    transform: scale(0.8);
-  }
-  .steps-left-side {
-    max-width: 50%;
-  }
-  
-  .how-it-works-title  {
-    font-size: 55px;
+  .step-card:nth-child(1),
+  .step-card:nth-child(3),
+  .step-card:nth-child(2),
+  .step-card:nth-child(4) {
+    grid-template-columns: 350px;
   }
 
-  .step-card-description {
-    font-size: 18px;
+  .preferences-right-side {
+    margin: 60px 20px;
   }
 
-  .feedback-card-citate {
-    font-size: 22px;
+  .call-us-question {
+    font-size: 25px;
   }
 
-  .feedback-card {
-    max-width: 100%;
-    margin: 0 85px;
-  }
-  
-  .footer-left-side {
-    display: grid;
-    grid-template-columns: max-content minmax(auto, 150px) max-content;
-    grid-template-rows: max-content max-content;
-  }
-
-  .footer-logo {
-    grid-row: 1/2;
-    grid-column: 1/2;
-  }
-
-  .social-links {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
-
-  .copyright {
-    grid-column: 1/2;
-    grid-row: 2/3
+  .call-us-answer {
+    font-size: 15px;
   }
 
   .footer-container {
-    grid-template-rows: minmax(auto, 120px) max-content auto;
+    grid-template-columns: max-content;
+    justify-items: center;
+  }
+  
+  .footer-logo img {
+    width: 150px;
   }
 
-  .footer-right-side {
-    display: none;
+  .footer-container {
+    min-height: 135px;
   }
 }
-
-@media (max-width: 479px) {
-  .banner-title-blue {
-    font-size: 50px;
-  }
-  .banner-title-white {
-    font-size: 37px;
-  }
-  .search-title {
-    font-size: 17px;
-  }
-} */
