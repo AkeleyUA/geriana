@@ -1043,4 +1043,8 @@ MEDIA
   .footer-container {
     min-height: 135px;
   }
+
+  .preferences-title {
+    margin-top: 0;
+  }
 }
