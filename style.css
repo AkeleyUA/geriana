@@ -711,6 +711,7 @@ MEDIA
   .preferences-left-side {
     margin-top:65px;
     grid-template-rows: max-content;
+    grid-gap: 10px 0;
   }
 
   .preferences-title {
