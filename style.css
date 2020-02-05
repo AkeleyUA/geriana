@@ -651,7 +651,7 @@ body {
 
 
 
-@media (max-width: 1320px) {
+@media (max-width: 1299px) {
   .specialists {
     grid-template-columns: repeat(auto-fit, minmax(460px, auto));
   }
@@ -662,12 +662,13 @@ body {
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .preferences-right-side {
     padding: 65px 0px 65px 120px;
   }
   .preferences-left-side {
-    margin-top:65px
+    margin-top:65px;
+    grid-template-rows: max-content;
   }
 
   .preferences-title {
@@ -685,24 +686,34 @@ body {
   }
   
   .nav-link.menu-link {
-    font-size: 20px;
-    width: 90px;
+    font-size: 30px;
+    width: 110px;
   }
 
   .banner-description {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .search-title {
+    font-size: 24px;
   }
 
   .specialists-card {
-    width: 400px;
+    width: 100%;
+    grid-template-rows: max-content;
   }
 
   .card-title {
-    font-size: 26px;
+    font-size: 40px;
+    height: auto;
   }
   
   .card-description {
-    font-size: 22px;
+    font-size: 30px;
+  }
+
+  .step-card-description {
+    font-size: 18px;
   }
 
   .feedback-card-citate {
